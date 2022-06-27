@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: BenguiatBold;
+    src: url(fonte/BenguiatBold.ttf);
+}
+body{
+    min-width: 320px;
+    background-image: url(img/upsideDown.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section{
+    padding: 0 20px 20px;
+}
+h1{
+    font-family: 'BenguiatBold';
+    color: #c20000;
+    text-align: center;
+    font-size: 30px;
+    margin: 25px auto;
+    text-shadow: 3px 3px 3px #000000;
+}
+h2{
+    font-family: 'BenguiatBold';
+    color: #c20000;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 3px 3px 3px #000000;
+}
+h3{
+    font-family: 'BenguiatBold';
+    margin: 20px 0 10px;
+}
+ol li{
+    list-style-position: inside;
+    margin: 10px 0;
+    cursor: pointer;
+}
+ol li:hover{
+    color: #c20000
+}
+.glassBox{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+}
+.glassBox h3, .glassBox p, .glassBox ol{
+    position: relative;
+    z-index: 999;
+    width: fit-content;
+}
+.acrylicEffect{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #8d8d8d, transparent, #8d8d8d);
+    box-shadow: 3px 3px 5px #000000;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    opacity: .9;
+    z-index: 1;
+}
